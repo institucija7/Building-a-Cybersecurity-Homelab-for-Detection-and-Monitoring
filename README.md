@@ -2,11 +2,11 @@
 
 <h2>Description</h2>
 <b></b> -Project consist of:
-  -Downloading the configuration Nessus Vulnerability Scanner
-  -Downloading Virtual Box
-  -Set up Windows10 inside of Virtual Box
-  -Install old depricated software on Windows10 VM
-  -Vulnerability scans agains Windows10 VM
+- Downloading the configuration Nessus Vulnerability Scanner
+- Downloading Virtual Box
+- Set up Windows10 inside of Virtual Box
+- Install old depricated software on Windows10 VM
+- Vulnerability scans agains Windows10 VM
  
 
 <h2>Languages and Utilities Used</h2>
