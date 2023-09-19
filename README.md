@@ -9,7 +9,7 @@
 - [Set up Windows10 inside of Virtual Box](https://www.microsoft.com/en-us/software-download/windows10)
 - [Install old depricated software on Windows10 VM](https://ftp.mozilla.org/pub/firefox/releases/3.6.12/win32/en-US/)
 - <b>[Vulnerability scans agains Windows10 VM]</b>
-- [Remediate and patching Windows10 VM]
+- <b>[Remediate and patching Windows10 VM]</b>
  
 
 <h2>Languages and Utilities Used</h2>
