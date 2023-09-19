@@ -63,7 +63,9 @@ Remediate and patch the VM Windows 10, turn on Firewall:  <br/>
 <br />
 <br />
 Go to Nessus scaner, run again scan and if you have some  remediations, scanner will told you exactly what you need to fix <br/>
-<img src="https://i.imgur.com/zlDMbzF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Thank you all for the reading this project :).
 
 
 
