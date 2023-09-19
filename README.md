@@ -24,7 +24,7 @@ Launch Windows 10VM, set Network to Bridged: <br/>
 <img src="https://i.imgur.com/jjTzIHu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Turn off Windows defender on Windows10VM(Click on Windows Defender Properties and turn all on off):  <br/>
+Turn off Windows defender on Windows10VM- Domain,Public and Private:  <br/>
 <img src="https://i.imgur.com/atD2YmA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
