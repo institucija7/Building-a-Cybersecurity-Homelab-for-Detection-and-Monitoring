@@ -1,12 +1,12 @@
 <h1>Creating Vulnerability Management Lab</h1>
 
 <h2>Description</h2>
-<b></b> -Project consist of:
-- Downloading the configuration Nessus Vulnerability Scanner
-- Downloading Virtual Box
-- Set up Windows10 inside of Virtual Box
-- Install old depricated software on Windows10 VM
-- Vulnerability scans agains Windows10 VM
+<b></b> -🔭Project consist of:
+<b>- Downloading the configuration Nessus Vulnerability Scanner</b>
+<b>- Downloading Virtual Box</b>
+<b>- Set up Windows10 inside of Virtual Box</b>
+<b>- Install old depricated software on Windows10 VM</b>
+<b>- Vulnerability scans agains Windows10 VM</b>
  
 
 <h2>Languages and Utilities Used</h2>
