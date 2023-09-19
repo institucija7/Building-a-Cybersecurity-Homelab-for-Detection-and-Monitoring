@@ -1,7 +1,9 @@
 <h1>Creating Vulnerability Management Lab</h1>
 
 <h2>Description</h2>
-- <h1>Project consist of:</h1>🔭
+
+- <h1>🔭Project consist of:</h1>
+
 - <b>Downloading the configuration Nessus Vulnerability Scanner</b>
 - <b>Downloading Virtual Box</b>
 - <b>Set up Windows10 inside of Virtual Box</b>
