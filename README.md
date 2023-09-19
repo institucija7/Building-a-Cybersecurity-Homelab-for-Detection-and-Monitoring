@@ -8,7 +8,6 @@
 - [Downloading Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 - [Set up Windows10 inside of Virtual Box](https://www.microsoft.com/en-us/software-download/windows10)
 - [Install old depricated software on Windows10 VM](https://ftp.mozilla.org/pub/firefox/releases/3.6.12/win32/en-US/)
-- <b>[Vulnerability scans agains Windows10 VM using credentials]</b>
 - <b>[Remediate and patching Windows10 VM]</b>
  
 
@@ -32,20 +31,47 @@ Go to Services and Enable Remote Registries, so our scanner can connect through 
 <img src="https://i.imgur.com/y36OtZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Enable file and printer sharing:  <br/>
+<img src="https://i.imgur.com/dBUGNYB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+User Account Control(make it to lower):  <br/>
+<img src="https://i.imgur.com/8fWHIXT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Registry Editor(click on empty field and create DWORD(next picture explained more)):  <br/>
+<img src="https://i.imgur.com/EfxNHAq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create File: LocalAccountTokenFilterPolicy and set Value=1:  <br/>
+<img src="https://i.imgur.com/9nidT3Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+First scan without Credentials, only 1 Medium vulnerability(for scan take ip from VM- Run command ipconfig in command line and take ip4address): <br/>
+<img src="https://i.imgur.com/bO5ygu6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Put Credentials of VM Windows 10: <br/>
+<img src="https://i.imgur.com/n7PZvUg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Second Scan with Credentials(a lot Critical and High Vulnerabilities):  <br/>
+<img src="https://i.imgur.com/rirn0ZH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Remediate and patch the VM Windows 10, turn on Firewall:  <br/>
+<img src="https://i.imgur.com/zlDMbzF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Go to Nessus scaner, run again scan and if you have some  remediations, scanner will told you exactly what you need to fix <br/>
+<img src="https://i.imgur.com/zlDMbzF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+
+
+
 </p>
 
 <!--
