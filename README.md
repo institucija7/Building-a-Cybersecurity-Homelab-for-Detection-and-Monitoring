@@ -1,14 +1,14 @@
 <h1>Vulnerability Management Lab</h1>
 
 <h2>Description</h2>
-<br>Project consist of:
+<br>Project consist of:<br />
  -Installing Virtual Box
  -Installing and configurating Nessus Vulnerability Scanner
  -Creating Virtual Machine Windows 10
  -Install old deprecated software on Virtual Machine Windows 10
  -Scanning Virtual Machine Windows 10 with Nessus Scanner to discover any vulnerabilities that might be on
  -Remediate and patching VM windows 10
-<br />
+
 
 
 <h2>Installing and configurating Nessus Vulnerability Scanner</h2>
