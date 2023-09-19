@@ -15,7 +15,7 @@
 
 - <b>Windows 10 and Web App Nessus Vuln Scanner</b> 
 
-<h2>Program walk-through:</h2>
+<h2>Walk-through:</h2>
 
 <p align="center">
 Launch Windows 10VM, set Network to Bridged: <br/>
