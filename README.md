@@ -21,15 +21,15 @@
 
 <p align="center">
 Launch Windows 10VM, set Network to Bridged: <br/>
-<img src="https://i.imgur.com/KYC6Aty.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2N2pV8u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Turn off Windows defender on Windows10VM:  <br/>
-<img src="https://i.imgur.com/latFshj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Turn off Windows defender on Windows10VM(Click on Windows Defender Properties and turn all on off):  <br/>
+<img src="https://i.imgur.com/5IbGO51.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Go to Services and Enable Remote Registries, so our scanner can connect through Registry: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/y36OtZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
