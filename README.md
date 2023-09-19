@@ -1,20 +1,19 @@
-<h1>Vulnerability Management Lab</h1>
+<h1>Creating Vulnerability Management Lab</h1>
+
 
 <h2>Description</h2>
-<br>Project consist of:<br />
- -Installing Virtual Box
- -Installing and configurating Nessus Vulnerability Scanner
- -Creating Virtual Machine Windows 10
- -Install old deprecated software on Virtual Machine Windows 10
- -Scanning Virtual Machine Windows 10 with Nessus Scanner to discover any vulnerabilities that might be on
- -Remediate and patching VM windows 10
+ -Project consist of:
+ -Downloading the configuration Nessus Vulnerability Scanner
+ -Downloading Virtual Box
+ -Set up Windows10 inside of Virtual Box
+ -Install old depricated software on Windows10 VM
+ -Vulnerability scans agains Windows10 VM
+ 
 
+<h2>Languages and Utilities Used</h2>
 
-
-<h2>Installing and configurating Nessus Vulnerability Scanner</h2>
-<img src="https://prnt.sc/oLIUfizP1SPr" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
+- <b>PowerShell</b> 
+- <b>Diskpart</b>
 
 <h2>Environments Used </h2>
 
